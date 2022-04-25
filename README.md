@@ -21,5 +21,5 @@
 ##  <5>  預期成果
 ### 就是一台簡單的計算機。
 ##  <6>  參考文獻
-|1|`[CPLD邏輯設計實驗平台使用手冊]`|[CPLD邏輯設計實驗平台使用手冊](https://eeclass.utaipei.edu.tw/media/doc/86181)|
-|2|`[BCD維基百科]`|[BCD維基百科](https://zh.wikipedia.org/wiki/%E4%BA%8C%E9%80%B2%E7%A2%BC%E5%8D%81%E9%80%B2%E6%95%B8)|
+### |1|`[CPLD邏輯設計實驗平台使用手冊]`|[CPLD邏輯設計實驗平台使用手冊](https://eeclass.utaipei.edu.tw/media/doc/86181)|
+### |2|`[BCD維基百科]`|[BCD維基百科](https://zh.wikipedia.org/wiki/%E4%BA%8C%E9%80%B2%E7%A2%BC%E5%8D%81%E9%80%B2%E6%95%B8)|

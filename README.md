@@ -19,7 +19,7 @@
 ##  <4>  提出方法及步驟
 ### 輸入的部分就用 ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%871.png) ，左邊四格是第一個數字，右邊四格是第二個數字。
 ### ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%872.png) 這四個分別是加減乘除。如(三)裡提到，將計算結果透過七段顯示器![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%873.png) 去做輸出。
-### 因為BCD的加減乘除會用到十位數，所以會用到兩個七段顯示器，得去設定![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%874.png)
+### 因為BCD的加減乘除會用到十位數，所以會用到兩個七段顯示器，得去設定![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%875.png)
 ##  <5>  預期成果
 ### 一台簡單版的計算機。
 ##  <6>  參考文獻

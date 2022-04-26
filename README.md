@@ -17,7 +17,7 @@
    * 乘法 : 直接用乘法器做
    * 除法 : 因為除法可能會出現分數，不只得設定成一定是大除以小，還要無條件捨棄小數點，得畫truth table跟k-map化簡再拉電路
 ##  <4>  提出方法及步驟
-### 輸入的部分就用 ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%871.png) ，左邊四格是第一個數字，右邊四格是第二個數字。
+### 輸入的部分就用 ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%876.png) ，左邊四格是第一個數字，右邊四格是第二個數字。
 ### ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%872.png) 這四個分別是加減乘除。如(三)裡提到，將計算結果透過七段顯示器![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%873.png) 去做輸出。
 ### 因為BCD的加減乘除會用到十位數，所以會用到兩個七段顯示器，得去設定![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%875.png)
 ##  <5>  預期成果

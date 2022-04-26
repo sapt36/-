@@ -21,7 +21,7 @@
 ### ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%872.png) 這四個分別是加減乘除。如(三)裡提到，將計算結果透過七段顯示器![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%873.png) 去做輸出。
 ### 因為BCD的加減乘除會用到十位數，所以會用到兩個七段顯示器，得去設定![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%874.png)
 ##  <5>  預期成果
-### 就是一台簡單的計算機。
+### 一台簡單版的計算機。
 ##  <6>  參考文獻
 ### |1|  `[CPLD邏輯設計實驗平台使用手冊]`  |  [CPLD邏輯設計實驗平台使用手冊](https://eeclass.utaipei.edu.tw/media/doc/86181)  |
 ### |2|  `[BCD維基百科]`  |  [BCD維基百科](https://zh.wikipedia.org/wiki/%E4%BA%8C%E9%80%B2%E7%A2%BC%E5%8D%81%E9%80%B2%E6%95%B8)  |

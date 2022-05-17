@@ -35,7 +35,8 @@
 ### 為了方便按下隨時放開，我們選用 ___脈波按鍵(PULSE)___ ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%961.png) 來做輸入。
 ### 基本上只會用到一個，也就是左上角PS1按鈕。而且需要像先前作業中那樣，在電路中加上除顫器和Clock。而要輪流跑的紅黃綠燈就是用紅黃綠燈LED
 ### ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%962.png) 紅黃綠燈輪流閃，並且設成不同難度，最簡單的可能可以每秒換一個燈，越難頻率越快，最難的可能可以1/8秒就換一個燈。
-### 而在紅燈時鬆手扣一分，黃燈時鬆手不加分不扣分，綠燈時鬆手加一分。得分則會顯示在七段顯示器上 ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%963.jpg) 一開始是零分，分數隨著正確選到綠燈加上去。
+### 而在紅燈時鬆手扣一分，黃燈時鬆手不加分不扣分，綠燈時鬆手加一分。得分則會顯示在七段顯示器上 ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%963.jpg) 
+### 一開始是零分，分數隨著正確選到綠燈加上去。
 ### ___如果做得到的話，可以做出不同的難度，分數越高越難，也就是越快。並且設一個最高分___，例如拿到十分，就會結束這個遊戲並顯示666666或是用蜂鳴器播放勝利的音樂。
 [回到頂部](#readme)
 ### 

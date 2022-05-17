@@ -12,14 +12,15 @@
 ##  <2>  製作目的
 ### 用Quartus_II和CPLD邏輯設計實驗平台實現一個節奏遊戲，將得分在7段顯示器上顯示。
 ##  <3>  方法探討
-   要節奏遊戲就需要有節奏的東西，像是手機遊戲的音樂遊戲，玩家要跟著節奏在正確的時間點按下螢幕。然而只憑這個CPLD邏輯設計實驗平台的左半邊應該是半不到這麼複雜的設計的，畢竟只能用7段顯示器、紅黃綠燈，蜂鳴器等等東西來輸出。所以我想到，網路上有人做過類似音樂遊戲的節奏遊戲，要在正確的時間點按下按鈕就贏了。於是我們想到，可以用紅黃綠燈或7段顯示器輪流閃，來做出題的動作。後來還想到，可以做不同的難度(頻率越來越快)，並且可以計算得分，顯示在七段顯示器上。如此一來，就要用紅黃綠燈來做出題了。
+### 要節奏遊戲就需要有節奏的東西，像是手機遊戲的音樂遊戲，玩家要跟著節奏在正確的時間點按下螢幕。然而只憑這個CPLD邏輯設計實驗平台的左半邊應該是半不到這麼複雜的設計的，畢竟只能用7段顯示器、紅黃綠燈，蜂鳴器等等東西來輸出。所以我想到，網路上有人做過類似音樂遊戲的節奏遊戲，要在正確的時間點按下按鈕就贏了。於是我們想到，可以用紅黃綠燈或7段顯示器輪流閃，來做出題的動作。後來還想到，可以做不同的難度(頻率越來越快)，並且可以計算得分，顯示在七段顯示器上。如此一來，就要用紅黃綠燈來做出題了。
 ##  <4>  提出方法及步驟
 ### 選一個按鍵當作輸入，按下去後紅黃綠燈會自動有規律地輪流閃爍。而若在綠燈時鬆開輸入的那個按鍵加一分；紅燈時鬆開按鍵扣一分；黃燈時鬆開按鍵則不加分也不扣分。如果做得出來，可以做不同難度的關卡(燈閃爍的頻率越來越快)。
-為了方便地按下並隨時放開，我們選用脈波按鍵(PULSE)  ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%876.png) ，左邊四格是第一個數字，右邊四格是第二個數字。
-### ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%872.png) 這四個分別是加減乘除。如(三)裡提到，將計算結果透過七段顯示器![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%873.png) 去做輸出。
-### 因為BCD的加減乘除會用到十位數，所以會用到兩個七段顯示器，得去設定![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%96%E7%89%875.png)
+### 為了方便地按下並隨時放開，我們選用脈波按鍵(PULSE)  ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%961.png) 來做輸入，基本上只會用到一個，也就是左上角PS1按鈕。而且需要像先前作業中那樣，在電路中加上除顫器和Clock。而要輪流跑的紅黃綠燈就是用紅黃綠燈LED
+### ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%962.png) 紅黃綠燈會輪流閃，並且可以設成不同難度，最簡單的可能每秒換一個燈，越難頻率越快，最難的可能1/8秒就換一個燈。而在紅燈時鬆手扣一分，黃燈時鬆手不加分不扣分，綠燈時鬆手加一分。得分則會顯示在七段顯示器上 ![image](https://github.com/sapt36/Final-project-of-DigitalCircuitExperiment/blob/main/png/%E5%9C%963.jpg) 一開始是零分，分數隨著正確選到綠燈加上去。如果做得到的話，可以做出不同的難度，分數越高越難，也就是越快。並且設一個最高分，例如拿到十分，就會結束這個遊戲並顯示666666或是用蜂鳴器播放勝利的音樂。
+### 
 ##  <5>  預期成果
-### 一台簡單版的計算機。
+### 能成功讓LED輪流閃爍，且隨著關卡上升閃爍頻率也愈來越快，以實現節奏快慢的小遊戲。
 ##  <6>  參考文獻
 ### |1|  `[CPLD邏輯設計實驗平台使用手冊]`  |  [CPLD邏輯設計實驗平台使用手冊](https://eeclass.utaipei.edu.tw/media/doc/86181)  |
-### |2|  `[BCD維基百科]`  |  [BCD維基百科](https://zh.wikipedia.org/wiki/%E4%BA%8C%E9%80%B2%E7%A2%BC%E5%8D%81%E9%80%B2%E6%95%B8)  |
+### |2|  `[電路防彈跳symbol 與 clock symbol]`  |  [電路防彈跳symbol 與 clock symbol](https://eeclass.utaipei.edu.tw/media/doc/85906)  |
+### |3|  `[FLIPFLOP和計數器]`  |  [FLIPFLOP和計數器](https://eeclass.utaipei.edu.tw/media/doc/88524)  |

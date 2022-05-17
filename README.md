@@ -38,7 +38,7 @@
 ### 
 ##  <5>  預期成果
 ### 能成功讓LED輪流閃爍，且隨著關卡上升閃爍頻率也愈來越快，以實現節奏快慢的小遊戲。
-##  <6>  參考文獻
+##  <6>  參考文獻:point_right:
 ### |1|  `[CPLD邏輯設計實驗平台使用手冊]`  |  [CPLD邏輯設計實驗平台使用手冊](https://eeclass.utaipei.edu.tw/media/doc/86181)  |
 ### |2|  `[電路防彈跳symbol 與 clock symbol]`  |  [電路防彈跳symbol 與 clock symbol](https://eeclass.utaipei.edu.tw/media/doc/85906)  |
 ### |3|  `[FLIPFLOP和計數器]`  |  [FLIPFLOP和計數器](https://eeclass.utaipei.edu.tw/media/doc/88524)  |

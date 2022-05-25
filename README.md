@@ -45,7 +45,7 @@ ___如果做得到的話，可以做出不同的難度，分數越高越難，�
 並且設一個最高分___，例如拿到十分，就會結束這個遊戲並顯示666666或是用蜂鳴器播放勝利的音樂。
 ##  <5>  預期成果
 ###     能成功讓LED輪流閃爍，且隨著關卡上升閃爍頻率也愈來越快，以實現節奏快慢的小遊戲。
-##  <6>  參考文獻:point_right:
+##  <6>  參考文獻:book:
 ### |1|  `[CPLD邏輯設計實驗平台使用手冊]`  |  [CPLD邏輯設計實驗平台使用手冊](https://eeclass.utaipei.edu.tw/media/doc/86181)  |
 ### |2|  `[電路防彈跳symbol 與 clock symbol]`  |  [電路防彈跳symbol 與 clock symbol](https://eeclass.utaipei.edu.tw/media/doc/85906)  |
 ### |3|  `[FLIPFLOP和計數器]`  |  [FLIPFLOP和計數器](https://eeclass.utaipei.edu.tw/media/doc/88524)  |

@@ -83,12 +83,12 @@
 ### 若能提早開始著手準備專題，相信對於時間上的規畫能更加彈性且游刃有餘。
 
 ##  <6>  結果圖示
-![image](https://github.com/sapt36/DigitalCircuitExperiment-FinalProject-/blob/main/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/%E5%9C%96%E7%89%877.jpg)
 * 當我們使用按下PLUSE後，紅黃綠LED燈開始輪流閃爍
-![image](https://github.com/sapt36/DigitalCircuitExperiment-FinalProject-/blob/main/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/%E5%9C%96%E7%89%878.jpg)
+![image](https://github.com/sapt36/DigitalCircuitExperiment-FinalProject-/blob/main/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/%E5%9C%96%E7%89%877.jpg)
 * 紅燈按下後會扣分
-![image](https://github.com/sapt36/DigitalCircuitExperiment-FinalProject-/blob/main/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/%E5%9C%96%E7%89%879.jpg)
+![image](https://github.com/sapt36/DigitalCircuitExperiment-FinalProject-/blob/main/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/%E5%9C%96%E7%89%878.jpg)
 * 綠燈按下後加分，黃燈按下後不加不減
+![image](https://github.com/sapt36/DigitalCircuitExperiment-FinalProject-/blob/main/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/%E5%9C%96%E7%89%879.jpg)
 
 ##  <7>  參考文獻:book:
 ### |1|  `[CPLD邏輯設計實驗平台使用手冊]`  |  [CPLD邏輯設計實驗平台使用手冊](https://eeclass.utaipei.edu.tw/media/doc/86181)  |
